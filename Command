@@ -1,0 +1,5 @@
+补依赖
+sudo apt install -f
+
+查看电脑的NVIDIA型号
+lspci | grep -i nvidia
