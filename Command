@@ -4,6 +4,20 @@ sudo apt install -f
 查看电脑的NVIDIA型号
 lspci | grep -i nvidia
 
+查看 CUDA 版本
+cat /usr/local/cuda/version.txt
+
 https://www.cnblogs.com/yhjoker/p/10972795.html
 Pytorch 使用不同版本的 cuda
 
+查看安装的 Pytorch 的信息
+conda list | grep pytorch    
+
+Requirements
+    Ubuntu 18.04
+    Python 3.8.3
+    PyTorch 1.8.1
+    CUDA 11.0.207
+    CMake 3.21.0
+    APEX
+    spconv
