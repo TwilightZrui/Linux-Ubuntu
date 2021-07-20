@@ -3,3 +3,7 @@ sudo apt install -f
 
 查看电脑的NVIDIA型号
 lspci | grep -i nvidia
+
+https://www.cnblogs.com/yhjoker/p/10972795.html
+Pytorch 使用不同版本的 cuda
+
