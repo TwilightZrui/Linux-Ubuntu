@@ -1,4 +1,28 @@
-install cuDNN 8.0.5
+## install CUDA 11.0
+```bash
+wget http://developer.download.nvidia.com/compute/cuda/11.0.2/local_installers/cuda_11.0.2_450.51.05_linux.run
+sudo sh cuda_11.0.2_450.51.05_linux.run
+
+code ~/.bashrc
+##add
+export PATH=/usr/local/cuda/bin:$PATH
+export $ LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+##
+source ~/.bashrc
+```
+test cuda
+```bash
+nvcc -V
+```
+
+To test if CUDA works in torch
+```bash
+python
+>>import torch  
+>>torch.cuda.is_available() 
+True
+```
+## install cuDNN 8.0.5
 ```bash
 wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.0.5/11.0_20201106/cudnn-11.0-linux-x64-v8.0.5.39.tgz
 wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.0.5/11.0_20201106/Ubuntu18_04-x64/libcudnn8_8.0.5.39-1+cuda11.0_amd64.deb
@@ -7,7 +31,7 @@ wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.0.5/11
 
 tar -xzvf cudnn-11.0-linux-x64-v8.0.5.39.tgz
 cd /cuda
-sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/include/cudnn* /usr/local/cuda/include
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
@@ -27,3 +51,4 @@ view version
 ```
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
+
