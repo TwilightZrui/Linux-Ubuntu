@@ -1,0 +1,32 @@
+## Base software
+# terminator
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
+```bash
+```
