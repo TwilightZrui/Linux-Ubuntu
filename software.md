@@ -77,14 +77,15 @@ xterm*|rxvt*)
     ;;
 esac
 ```
-# chrome
+## chrome
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
-# 
+## VScode
 ```bash
 ```
+[VsCode通过SSH连接远程服务器开发](https://www.cnblogs.com/chnmig/p/12160248.html)
 ```bash
 ```
 ```bash
