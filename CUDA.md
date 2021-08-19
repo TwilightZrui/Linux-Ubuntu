@@ -57,6 +57,7 @@ view version
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
 ## install torch(CUDA 11.0)
+[torch version](https://pytorch.org/get-started/previous-versions/#conda-1)
 ```bash
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 ```
