@@ -1,4 +1,4 @@
-## install CUDA 11.0
+## Install CUDA 11.0
 ```bash
 wget http://developer.download.nvidia.com/compute/cuda/11.0.2/local_installers/cuda_11.0.2_450.51.05_linux.run
 sudo sh cuda_11.0.2_450.51.05_linux.run
@@ -27,7 +27,7 @@ python
 >>torch.cuda.is_available() 
 True
 ```
-## install cuDNN 8.0.5
+## Install cuDNN 8.0.5
 ```bash
 wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.0.5/11.0_20201106/cudnn-11.0-linux-x64-v8.0.5.39.tgz
 wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.0.5/11.0_20201106/Ubuntu18_04-x64/libcudnn8_8.0.5.39-1+cuda11.0_amd64.deb
@@ -56,7 +56,7 @@ view version
 ```
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
-## install torch(CUDA 11.0)
+## Install torch(CUDA 11.0)
 [torch version](https://pytorch.org/get-started/previous-versions/#conda-1)
 ```bash
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
