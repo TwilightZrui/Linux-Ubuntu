@@ -27,6 +27,20 @@ python
 >>torch.cuda.is_available() 
 True
 ```
+warnning
+```bash
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8 is not a symbolic link
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8 is not a symbolic link
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8 is not a symbolic link
+```
+slove
+```bash
+sudo ldconfig -v
+sudo ln -sf 
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8
+```
 ## Install cuDNN 8.0.5
 ```bash
 wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.0.5/11.0_20201106/cudnn-11.0-linux-x64-v8.0.5.39.tgz
