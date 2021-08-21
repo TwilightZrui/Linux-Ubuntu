@@ -23,6 +23,11 @@ rosdep update
 ```
 
 ## 为ubuntu18.04安装jsk_recognition_msgs
+ros安装功能包
+```bash
+sudo apt-get install ros-$release-ros-numpy
+```
+
 ```bash
 sudo apt-get install ros-melodic-jsk-recognition-msgs
 sudo apt-get install ros-melodic-jsk-rviz-plugins
