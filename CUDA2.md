@@ -82,7 +82,7 @@ make clean && make
 
 view version
 ```
-cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A 2
 ```
 ## Install torch(CUDA 11.0)
 [torch version](https://pytorch.org/get-started/previous-versions/#conda-1)
