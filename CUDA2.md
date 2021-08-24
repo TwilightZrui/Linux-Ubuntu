@@ -28,17 +28,34 @@ True
 ```
 warnning
 ```bash
-/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8 is not a symbolic link
-/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8 is not a symbolic link
 /sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8 is not a symbolic link
+
 ```
 slove
 ```bash
 sudo ldconfig -v
 sudo ln -sf 
-sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8
-sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8
 sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8
+
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8
+
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8
+
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn.so.8
+
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8
+
+sudo ln -sf /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8.0.5 /usr/local/cuda-11.0/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8
 ```
 ## Install cuDNN 8.0.5
 ```bash
