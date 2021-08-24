@@ -51,7 +51,7 @@ vim ~/.bashrc
 export PATH=$PATH:/home/twilight/miniconda3/bin
 ```
 [【Linux】conda: command not found解决办法](https://blog.csdn.net/weixin_38705903/article/details/86533863)
-
+[conda activate激活环境出错的解决办法](https://blog.csdn.net/qq_33825817/article/details/88959785)
 ## sogou 
 ```bash
 sudo apt install fcitx
