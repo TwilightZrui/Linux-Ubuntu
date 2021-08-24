@@ -5,7 +5,7 @@ sudo sh cuda_11.0.2_450.51.05_linux.run
 code ~/.bashrc
 ##add
 export PATH=/usr/local/cuda/bin:$PATH
-export $ LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ##
 source ~/.bashrc
 ```
