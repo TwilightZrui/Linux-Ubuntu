@@ -90,6 +90,17 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```bash
 ```
 [VsCode通过SSH连接远程服务器开发](https://www.cnblogs.com/chnmig/p/12160248.html)
+
+## sogou 
+```bash
+sudo apt install fcitx
+wget https://ime.sogouimecdn.com/202108250027/b6abc77d89542b7352010c7cd7e88b36/dl/index/1612260778/sogoupinyin_2.4.0.3469_amd64.deb
+sudo dpkg -i sogoupinyin_2.4.0.3469_amd64.deb
+sudo apt -f install
+```
+[Ubuntu搜狗输入法安装指南](https://pinyin.sogou.com/linux/help.php)
+[ubuntu18.04安装搜狗输入法](https://jingyan.baidu.com/article/6c67b1d6d304f76687bb1e94.html)
+
 ```bash
 ```
 ```bash
