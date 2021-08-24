@@ -1,4 +1,4 @@
-# Base software
+# Software
 ## terminator
 ```bash
 sudo apt install terminator
