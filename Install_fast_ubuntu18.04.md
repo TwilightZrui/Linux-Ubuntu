@@ -42,7 +42,13 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ## CUDA 11.0 cuDNN torch
 [CUDA 11.0 cuDNN torch INSTALL](https://github.com/TwilightZrui/Linux-Ubuntu/blob/main/CUDA.md)
 
-## conda
+## Anaconda
+```bash
+wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+./Anaconda3-2021.05-Linux-x86_64.sh
+
+```
+## miniconda
 ```bash
 wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
@@ -52,6 +58,14 @@ export PATH=$PATH:/home/twilight/miniconda3/bin
 ```
 [【Linux】conda: command not found解决办法](https://blog.csdn.net/weixin_38705903/article/details/86533863)
 [conda activate激活环境出错的解决办法](https://blog.csdn.net/qq_33825817/article/details/88959785)
+
+uninstall miniconda
+```bash
+cd ~/
+rm -rf miniconda
+code ~/.bashrc
+delete conda initiation
+```
 ## sogou 
 ```bash
 sudo apt install fcitx
