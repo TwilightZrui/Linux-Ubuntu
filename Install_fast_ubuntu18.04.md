@@ -6,10 +6,9 @@ nividia driver
 CUDA
 cuDNN
 conda
-
 torch
 
-## terminator
+## Terminator
 ```bash
 sudo apt install terminator
 ```
@@ -30,9 +29,24 @@ cmake --version
 ```
 [Ubuntu中安装Cmake](https://www.cnblogs.com/yanqingyang/p/12731855.html)
 
-## VPN
-
+##  VPN
+### v2ray
 [Linux配置v2ray详细教程-Ubuntu为例](https://mahongfei.com/1776.html)
+如果需要不挂VPN访问外网，需要在setting network中disable代理
+
+### ssr electron-ssr
+download: [electron-ssr-backup](https://github.com/qingshuisiyuan/electron-ssr-backup/releases)
+用ubuntu software安装
+导入链接
+在ubuntu setting network中设置代理
+
+### 利用proxychains让命令走代理
+```bash
+sudo apt install proxychains
+sudo vim /etc/proxychains.conf
+socks5 127.0.0.1 1080 #端口需要根据代理软件设置
+proxychains wget https://www.google.com
+```
 
 ## chrome 
 ```bash
@@ -46,25 +60,6 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```bash
 wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 ./Anaconda3-2021.05-Linux-x86_64.sh
-
-```
-## miniconda
-```bash
-wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-
-vim ~/.bashrc
-export PATH=$PATH:/home/twilight/miniconda3/bin
-```
-[【Linux】conda: command not found解决办法](https://blog.csdn.net/weixin_38705903/article/details/86533863)
-[conda activate激活环境出错的解决办法](https://blog.csdn.net/qq_33825817/article/details/88959785)
-
-uninstall miniconda
-```bash
-cd ~/
-rm -rf miniconda
-code ~/.bashrc
-delete conda initiation
 ```
 ## sogou 
 ```bash
