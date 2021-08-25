@@ -61,7 +61,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 ./Anaconda3-2021.05-Linux-x86_64.sh
 ```
-## sogou 
+## Sogou 
 ```bash
 sudo apt install fcitx
 wget https://ime.sogouimecdn.com/202108250027/b6abc77d89542b7352010c7cd7e88b36/dl/index/1612260778/sogoupinyin_2.4.0.3469_amd64.deb
