@@ -50,8 +50,9 @@ which speedtest-cli | bash
 ```bash
 github.com -->  github.com.cnpmjs.org
 ```
+## ubuntu查看内核版本
 ```bash
-
+cat /proc/version
 ```
 ```bash
 
