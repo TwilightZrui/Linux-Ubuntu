@@ -54,11 +54,12 @@ github.com -->  github.com.cnpmjs.org
 ```bash
 cat /proc/version
 ```
+## 查看linux系统CPU位数
 ```bash
-
+sudo uname —m
 ```
 ```bash
-
+getconf LONG_BIT
 ```
 ```bash
 
