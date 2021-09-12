@@ -20,3 +20,7 @@ sudo apt-get install indicator-sysmonitor
 
 cpu: {cpu}    mem: {mem}   net:{net}    GPU:{nvgpu}
 ```
+## 截图
+```bash
+sudo apt install flameshot
+```
