@@ -61,6 +61,7 @@ sudo uname —m
 ```bash
 getconf LONG_BIT
 ```
+## 查看opencv版本
 ```bash
-
+pkg-config --modversion opencv
 ```
