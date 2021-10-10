@@ -65,3 +65,16 @@ getconf LONG_BIT
 ```bash
 pkg-config --modversion opencv
 ```
+
+
+## 本地与服务器间拷贝文件 
+
+从服务器传输到本地： 
+```bash
+scp -P 50000 zhangrui@10.12.128.58:服务器上的文件  本地路径 
+```
+ 
+从本地传输到服务器，-P 端口，-r传输目录 
+```bash
+scp -P 50000 -r /home/twilight/rosbag_sim zhangrui@10.12.218.58:/data1/zhangrui 
+```
