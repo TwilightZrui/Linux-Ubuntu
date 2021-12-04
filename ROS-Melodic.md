@@ -21,7 +21,7 @@ sudo apt install python-rosdep
 sudo rosdep init
 rosdep update
 ```
-[https://blog.csdn.net/Twilightzr/article/details/121714894](解决sudo rosdep init和rosdep update各种疑难杂症)
+[解决sudo rosdep init和rosdep update各种疑难杂症](https://blog.csdn.net/Twilightzr/article/details/121714894)
 
 ## 为ubuntu18.04安装jsk_recognition_msgs
 ros安装功能包
