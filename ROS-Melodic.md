@@ -22,7 +22,12 @@ sudo rosdep init
 rosdep update
 ```
 [解决sudo rosdep init和rosdep update各种疑难杂症](https://blog.csdn.net/Twilightzr/article/details/121714894)
-
+## test ROS
+```bash
+roscore
+rosrun turtlesim turtle
+rosrun turtlesim turtle_teleop_key
+```
 ## 为ubuntu18.04安装jsk_recognition_msgs
 ros安装功能包
 ```bash
