@@ -10,6 +10,10 @@ find ~/ -name Country.mmdb
 ```bash
 ps aux | grep process_name 
 ```
+```bash
+ps -ef | grep electron-ssr
+pkill electron-ssr
+```
 ## nvidia-smi 实时刷新 实时显示显存使用情况
 ```bash
 watch -n 0.1 -d nvidia-smi     #每隔0.1秒刷新一次 
