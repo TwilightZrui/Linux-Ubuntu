@@ -38,3 +38,9 @@ sudo apt-get install ros-$release-ros-numpy
 sudo apt-get install ros-melodic-jsk-recognition-msgs
 sudo apt-get install ros-melodic-jsk-rviz-plugins
 ```
+## remove ROS 
+```bash
+sudo apt-get purge ros-*
+sudo rm -rf /etc/ros
+gedit ~/.bashrc
+```
