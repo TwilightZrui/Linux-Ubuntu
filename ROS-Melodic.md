@@ -44,3 +44,9 @@ sudo apt-get purge ros-*
 sudo rm -rf /etc/ros
 gedit ~/.bashrc
 ```
+
+## 
+ros 查找包路径
+```bash
+rospack find package_name
+```
