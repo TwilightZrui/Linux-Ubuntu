@@ -45,7 +45,7 @@ sudo rm -rf /etc/ros
 gedit ~/.bashrc
 ```
 
-## 
+## Instruction
 ros 查找包路径
 ```bash
 rospack find package_name
