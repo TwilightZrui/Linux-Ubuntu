@@ -24,3 +24,7 @@ cpu: {cpu}    mem: {mem}   net:{net}    GPU:{nvgpu}
 ```bash
 sudo apt install flameshot
 ```
+## 文件对比工具
+```bash
+sudo apt-get install meld
+```
