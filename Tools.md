@@ -30,5 +30,5 @@ sudo apt-get install meld
 ```
 ## 录屏
 ```
-sudo add-apt-repository ppa:fossproject/ppa
+https://github.com/mhsabbagh/green-recorder
 ```
