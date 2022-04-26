@@ -28,3 +28,7 @@ sudo apt install flameshot
 ```bash
 sudo apt-get install meld
 ```
+## 录屏
+```
+sudo add-apt-repository ppa:fossproject/ppa
+```
