@@ -54,4 +54,5 @@ rospack find package_name
 ## 绘图
 ```bash
 sudo apt-get install ros-melodic-plotjuggler
+rosrun plotjuggler PlotJuggler
 ```
