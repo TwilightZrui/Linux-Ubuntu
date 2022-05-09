@@ -50,3 +50,8 @@ ros 查找包路径
 ```bash
 rospack find package_name
 ```
+
+## 绘图
+```bash
+sudo apt-get install ros-melodic-plotjuggler
+```
