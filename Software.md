@@ -145,7 +145,12 @@ sudo apt -f install
 [Ubuntu搜狗输入法安装指南](https://pinyin.sogou.com/linux/help.php)
 [ubuntu18.04安装搜狗输入法](https://jingyan.baidu.com/article/6c67b1d6d304f76687bb1e94.html)
 
+## Eigen
+[Eigen3多版本切换](https://blog.csdn.net/weixin_42265301/article/details/121984300)
 ```bash
+#git clone https://github.com/libeigen/eigen.git
+wget https://gitlab.com/libeigen/eigen/-/archive/3.3.9/eigen-3.3.9.zip
+unzip eigen-3.3.9.zip
 ```
 ```bash
 ```
