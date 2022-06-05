@@ -82,3 +82,7 @@ scp -P 50000 zhangrui@10.12.128.58:服务器上的文件  本地路径
 ```bash
 scp -P 50000 -r /home/twilight/rosbag_sim zhangrui@10.12.218.58:/data1/zhangrui 
 ```
+## 查看boost版本
+```bash
+dpkg -S /usr/include/boost/version.hpp
+```
