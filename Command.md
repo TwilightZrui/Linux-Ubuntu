@@ -86,3 +86,8 @@ scp -P 50000 -r /home/twilight/rosbag_sim zhangrui@10.12.218.58:/data1/zhangrui
 ```bash
 dpkg -S /usr/include/boost/version.hpp
 ```
+
+## 查看Eigen版本
+```bash
+gedit /usr/include/eigen3/Eigen/src/Core/util/Macros.h
+```
