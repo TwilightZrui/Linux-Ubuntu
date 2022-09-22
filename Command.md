@@ -124,3 +124,8 @@ dpkg -S /usr/include/boost/version.hpp
 ```bash
 gedit /usr/include/eigen3/Eigen/src/Core/util/Macros.h
 ```
+
+## 快捷键
+
+nautilus .： 在命令行端打开文件资源管理器
+ctrl+H: 文件夹下，把隐藏文件显示出来
