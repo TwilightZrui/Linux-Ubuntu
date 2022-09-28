@@ -13,7 +13,7 @@ find ~/ -name Country.mmdb
 ## 回显某个应用的PID
 
 ```bash
-ps aux | grep process_name 
+ps aux | grep process_name
 ```
 
 ```bash
@@ -24,7 +24,7 @@ pkill electron-ssr
 ## nvidia-smi 实时刷新 实时显示显存使用情况
 
 ```bash
-watch -n 0.1 -d nvidia-smi     #每隔0.1秒刷新一次 
+watch -n 0.1 -d nvidia-smi     #每隔0.1秒刷新一次
 nvidia-smi -l 1 #1ms刷新一次
 ```
 
@@ -68,7 +68,7 @@ g++ -o hello hello.cpp
 
 ```bash
 pip install speedtest-cli
-which speedtest-cli | bash 
+which speedtest-cli | bash
 ```
 
 ## Accelerate git
@@ -104,13 +104,13 @@ pkg-config --modversion opencv
 从服务器传输到本地：
 
 ```bash
-scp -P 50000 zhangrui@10.12.128.58:服务器上的文件  本地路径 
+scp -P 50000 zhangrui@10.12.128.58:服务器上的文件  本地路径
 ```
 
 从本地传输到服务器，-P 端口，-r传输目录
 
 ```bash
-scp -P 50000 -r /home/twilight/rosbag_sim zhangrui@10.12.218.58:/data1/zhangrui 
+scp -P 50000 -r /home/twilight/rosbag_sim zhangrui@10.12.218.58:/data1/zhangrui
 ```
 
 ## 查看boost版本
@@ -129,3 +129,34 @@ gedit /usr/include/eigen3/Eigen/src/Core/util/Macros.h
 
 nautilus .： 在命令行端打开文件资源管理器
 ctrl+H: 文件夹下，把隐藏文件显示出来
+
+## 修改用户名
+
+```bash
+sudo passwd user
+```
+
+## 永久修改主机名
+
+```bash
+sudo gedit /etc/hostname
+```
+
+## 列出Ubuntu上的磁盘
+
+```bash
+sudo lsblk
+```
+
+## ubuntu卸载dpkg安装的软件
+
+```bash
+dpkg -l 查看软件安装名字
+sudo dpkg --purge dropbox
+```
+
+## 修改用户名
+
+```bash
+
+```
