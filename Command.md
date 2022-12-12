@@ -155,8 +155,7 @@ dpkg -l 查看软件安装名字
 sudo dpkg --purge dropbox
 ```
 
-## 修改用户名
-
+## 命令行清除历史命令记录
 ```bash
-
+history -c
 ```
