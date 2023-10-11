@@ -79,3 +79,4 @@ sudo apt install python3-rosdep
 sudo rosdep init
 rosdep update
 ```
+2>/dev/null
