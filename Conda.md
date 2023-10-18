@@ -9,3 +9,8 @@ setting.json中添加：
 ```bash
 "python.terminal.activateEnvironmen":false,
 ```
+
+### conda 克隆环境
+```bash
+conda create -n conda-env2 --clone conda-env1
+```
