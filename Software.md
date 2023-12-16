@@ -3,6 +3,7 @@
 ```bash
 sudo apt install terminator
 ```
+ctrl shift+ p转移窗口
 gedit ~/.config/terminator/config
 ```bash
 [global_config]
