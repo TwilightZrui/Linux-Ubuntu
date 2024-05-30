@@ -43,7 +43,11 @@ sudo apt-get install meld
 ## 录屏
 
 ```
-https://github.com/mhsabbagh/green-recorder
+# SimpleScreenRecorder
+
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
 ```
 
 ## 终端与命令行之间粘贴
