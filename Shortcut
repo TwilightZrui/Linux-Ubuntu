@@ -1,5 +1,7 @@
 ## Chrome
 ctrl + o ，open a new tab page
+按键盘“Ctrl+Tab”键，标签页往右循环。
+按键盘“Ctrl+Shift+Tab”键，标签页往左循环。
 
 ## terminal
 ctrl r ,history command
