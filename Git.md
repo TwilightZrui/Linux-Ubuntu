@@ -21,3 +21,9 @@ git clean -df #返回到某个节点，（未跟踪文件的删除）
 ```
 
 git stash pop
+
+### git拉取远程分支
+```bash
+git branch -r
+git pull origin xxx
+```
