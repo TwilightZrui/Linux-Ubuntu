@@ -55,3 +55,9 @@ sudo apt-get install simplescreenrecorder
 ```bash
 sudo apt install xclip
 ```
+
+## tmux
+```bash
+vim ~/.tmux.conf
+set-option -g mouse on
+```
