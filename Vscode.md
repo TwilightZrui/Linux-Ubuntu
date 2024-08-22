@@ -69,3 +69,6 @@ Git graph
 
 Trailing Spaces，该插件会将行尾空格高亮。
 koroFileHeader VSCode自动添加注释
+
+### 文件名多行显示
+ 打开vscode的设置，搜索wrap tabs，勾选上
