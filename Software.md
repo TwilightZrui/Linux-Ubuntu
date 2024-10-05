@@ -78,6 +78,7 @@ xterm*|rxvt*)
     ;;
 esac
 ```
+![image](https://github.com/user-attachments/assets/9a713510-f213-46ea-8ef8-feba4c1f4a07)
 
 ## chrome
 ```bash
