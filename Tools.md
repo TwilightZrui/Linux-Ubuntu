@@ -60,4 +60,10 @@ sudo apt install xclip
 ```bash
 vim ~/.tmux.conf
 set-option -g mouse on
+
+# old version
+Ctrl  + B， :，set mouse-mode on 
+# new version
+Ctrl  + B， :，sset -g mouse on
 ```
+
