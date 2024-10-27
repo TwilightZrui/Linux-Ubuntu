@@ -47,3 +47,10 @@ scp -P 50000 zhangrui@10.12.128.58:服务器上的文件  本地路径
 ```bash
 scp -P 50000 -r /home/twilight/rosbag_sim zhangrui@10.12.218.58:/data1/zhangrui 
 ```
+
+将SSH公钥上传到Linux服务器
+可以使用ssh-copy-id命令来完成．
+```bash
+ssh-copy-id username@remote-server
+```
+
