@@ -80,3 +80,9 @@ sudo rosdep init
 rosdep update
 ```
 2>/dev/null
+
+
+## ROS2
+```bash
+ros2 run tf2_ros tf2_echo world left_arm_flange_link
+```
