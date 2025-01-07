@@ -27,3 +27,12 @@ git stash pop
 git branch -r
 git pull origin xxx
 ```
+
+
+### git cmakelist
+```
+	GIT_REPOSITORY https://github.com/giaf/blasfeo
+	GIT_TAG ae6e2d1dea015862a09990b95905038a756ffc7d
+
+  URL ${CMAKE_CURRENT_SOURCE_DIR}/blasfeo.zip
+```
