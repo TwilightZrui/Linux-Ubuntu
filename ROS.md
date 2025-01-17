@@ -88,4 +88,5 @@ ros2 run tf2_ros tf2_echo world left_arm_flange_link
 
 ros2 param get /robot_state_publisher robot_description
 
+colcon build --cmake-clean-cache --symlink-install
 ```
