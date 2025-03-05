@@ -20,8 +20,6 @@ git reset --soft HASH #返回到某个节点, 保留修改，已有的改动会�
 git clean -df #返回到某个节点，（未跟踪文件的删除）
 ```
 
-git stash pop
-
 ### git拉取远程分支
 ```bash
 git branch -r
@@ -35,4 +33,11 @@ git pull origin xxx
 	GIT_TAG ae6e2d1dea015862a09990b95905038a756ffc7d
 
   URL ${CMAKE_CURRENT_SOURCE_DIR}/blasfeo.zip
+```
+
+### git stash
+
+```
+git stash list
+git stash apply stash@{1}
 ```
