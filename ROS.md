@@ -89,4 +89,6 @@ ros2 run tf2_ros tf2_echo world left_arm_flange_link
 ros2 param get /robot_state_publisher robot_description
 
 colcon build --cmake-clean-cache --symlink-install
+
+ros2 topic echo /adapter_controller/hybrid_commands | grep "joint_name:" -A 10
 ```
