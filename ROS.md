@@ -84,6 +84,8 @@ rosdep update
 
 ## ROS2
 ```bash
+rostopic pub /is_rl_ctrl_upperlimb std_msgs/Bool "data: true"
+
 ros2 run tf2_ros tf2_echo world left_arm_flange_link
 
 ros2 param get /robot_state_publisher robot_description
