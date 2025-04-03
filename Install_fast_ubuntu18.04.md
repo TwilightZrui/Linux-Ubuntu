@@ -70,3 +70,14 @@ sudo apt -f install
 ```
 [Ubuntu搜狗输入法安装指南](https://pinyin.sogou.com/linux/help.php)
 [ubuntu18.04安装搜狗输入法](https://jingyan.baidu.com/article/6c67b1d6d304f76687bb1e94.html)
+
+## miniconda
+```
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+
+~/miniconda3/bin/conda init --all
+source ~/.bashrc
+```
