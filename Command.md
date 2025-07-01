@@ -159,3 +159,8 @@ sudo dpkg --purge dropbox
 ```bash
 history -c
 ```
+
+## ln
+```
+ln -s /root/mine/config.json /root/hardware/config.json
+```
