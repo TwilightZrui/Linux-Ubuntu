@@ -95,4 +95,6 @@ colcon build --cmake-clean-cache --symlink-install
 ros2 topic echo /adapter_controller/hybrid_commands | grep "joint_name:" -A 10
 
 ros2 pkg prefix xbot_description
+
+sudo apt install ros-humble-rosbag2-storage-mcap
 ```
