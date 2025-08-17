@@ -11,3 +11,14 @@ newgrp docker
 ```
 docker run --name ros2_humble_v194 -d --security-opt seccomp=unconfined --gpus 'all,"capabilities=compute,utility,graphics"' -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --privileged=true -u root -v /dev/shm:/dev/shm -v /home/blue/studio/docker/doc:/root/ --network=host ros-humble-nuc:v1.9.4
 ```
+
+## 进入docker
+```
+docker exec -it $container_name /bin/bash
+```
+
+```
+# local, for mujoco
+xhost +SI:localuser:root 
+export DISPLAY=:1
+```
