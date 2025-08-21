@@ -97,4 +97,9 @@ ros2 topic echo /adapter_controller/hybrid_commands | grep "joint_name:" -A 10
 ros2 pkg prefix xbot_description
 
 sudo apt install ros-humble-rosbag2-storage-mcap
+
+
+https://get.foxglove.dev/desktop/latest/foxglove-studio-latest-linux-amd64.deb
+sudo apt install ./foxglove-studio-*.deb
+sudo apt update && sudo apt install foxglove-studio
 ```
