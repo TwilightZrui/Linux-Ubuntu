@@ -14,13 +14,13 @@ docker run --name ros2_humble_v194 -d --security-opt seccomp=unconfined --gpus '
 docker run --name ros2_humble_v194 -d \
   --security-opt seccomp=unconfined \
   --gpus all \
-  --env NVIDIA_DRIVER_CAPABILITIES=all \
+  --env NVIDIA_DRIVER_CAPABILITIES=graphics,compute,utility,video,display \
   --env NVIDIA_VISIBLE_DEVICES=all \
   -e DISPLAY=$DISPLAY \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  --device /dev/dri:/dev/dri \  # 添加 DRM 设备
   --privileged=true \
   -u root \
+  --device /dev/:/dev/ \
   -v /dev/shm:/dev/shm \
   -v /home/blue/studio/docker/doc:/root/ \
   --network=host \
