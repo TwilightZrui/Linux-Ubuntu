@@ -45,9 +45,9 @@ sudo apt-get install meld
 ```
 # SimpleScreenRecorder
 
-sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
-sudo apt-get install simplescreenrecorder
+sudo add-apt-repository ppa:ubuntuhandbook1/apps
+sudo apt update
+sudo apt install simplescreenrecorder
 ```
 
 ## 终端与命令行之间粘贴
