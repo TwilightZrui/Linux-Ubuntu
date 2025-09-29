@@ -37,3 +37,8 @@ docker exec -it $container_name /bin/bash
 xhost +SI:localuser:root 
 export DISPLAY=:1
 ```
+
+## 删除docker
+```
+docker rm ros2_humble_v160
+```
