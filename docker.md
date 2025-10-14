@@ -16,6 +16,7 @@ docker run --name ros2_humble_v194 -d \
   --gpus all \
   --env NVIDIA_DRIVER_CAPABILITIES=graphics,compute,utility,video,display \
   --env NVIDIA_VISIBLE_DEVICES=all \
+  -e ACCEPT_EULA=Y \
   -e DISPLAY=$DISPLAY \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   --privileged=true \
